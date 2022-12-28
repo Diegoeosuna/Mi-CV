@@ -1,0 +1,188 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+.Cabezera{
+    display: grid;
+    grid-template-columns: 10% 20% 70%;
+    grid-template-rows: 29vh;
+    text-align: left;
+}
+
+.Perfil{
+    background-color: rgb(185, 204, 172);
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    justify-content: flex-start;
+    padding-left: 5%;
+}
+
+.Perfil h1{
+    font-weight: 700;
+    font-size: 230%;
+}
+
+.Perfil h2{
+    font-weight: 100;
+    font-size: 120%;
+}
+
+
+.Cuerpo{
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: auto;
+    margin-top: 1%;
+}
+
+.RecuadroColor{
+    background-color: rgb(71, 147, 91);
+    width: 100%;
+    height: 100%;
+}
+
+.Foto{
+    width: auto;
+    height: auto;
+    background-color:rgb(185, 204, 172);
+}
+
+.Foto img{
+    display: block;
+    display: flex;
+    margin-top: 4%;
+    margin-left: -30%;
+    width: 110%;
+    height: 50vh;
+    min-width: 100%;
+}
+
+.Foto h2{
+    position: absolute;
+    top: 80px;
+    left: 190px;
+    width: 100%;
+    margin: 0 auto;
+    width: 300px;
+    height: 50px;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-items: left;
+    margin-top: 1%;
+    padding: 10px;
+    font-size: 100%;
+    width: auto;
+    top: 30px;
+    }
+    
+.contenedor h3{
+    align-self: left;
+    font-size: 140%;
+
+}
+
+.contenedor h4{
+    font-weight: 400;
+    font-size: 120%;
+}
+
+.Experiencia{
+    display: grid;
+    grid-template-rows: 0.1fr 4fr 1fr;
+    justify-content: left;
+    grid-template-rows: 1fr;
+    grid-template-columns: auto;
+    width: 100%;
+    margin-left: 5%;
+}
+
+.Laboral{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 2%;
+}
+
+.Laboral h1{
+    font-size: 200%;
+    margin-bottom: 2%;
+    font-style: oblique;
+}
+
+.Educativa h1{
+    font-size: 200%;
+    margin-bottom: 2%;
+    font-style:oblique;
+}
+
+.Informacion{
+    display: grid;
+    padding-left: 5%;
+    margin-bottom: 10%;
+    margin-left: 2%;
+    grid-template-columns: auto;
+    grid-template-rows: 0.45fr 0.5fr 0.7fr 1fr;
+    row-gap: 2%;
+    border-right: 1px groove rgba(153, 147, 147, 0.997);
+}
+
+.Profesion{
+    text-decoration: none;
+}
+
+.Informacion h2{
+    text-decoration: underline;
+    text-decoration-color:  rgb(71, 147, 91);
+    font-size: 150%;
+    margin-bottom: 5%;
+}
+
+.Informacion h3{
+    font-weight: 200;
+    font-size: 150%;
+}
+
+.Nombre h1{
+    font-size: 250%;
+    font-weight: 800;
+}
+
+.Apellidos{
+    color:  rgb(71, 147, 91);
+}
+
+ol{
+    list-style-type: none;
+    font-size: 100%;
+    font-weight: 500;
+} 
+
+ul{
+    list-style-type:square;
+    font-size: 100%;
+    font-weight: 200;
+}  
+
+ .line{
+width: 65%;
+height: 8%;
+border-bottom: 5px solid  rgb(71, 147, 91);
+position: absolute;
+margin-top: 5px;
+margin-bottom: 5px;
+}
+
